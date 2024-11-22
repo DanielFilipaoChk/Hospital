@@ -1,0 +1,36 @@
+# copied from .gitignore
+
+# Packages
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# IDEs and editors
+.editorconfig
+.idea/
+/.vscode
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+composer.lock
+.git
+
+# System files
+.DS_Store
+Thumbs.db
+
+Dockerfile2
+
